@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7671594139578562578}
   - component: {fileID: 4288879621546415494}
   - component: {fileID: 8568470059694322218}
+  - component: {fileID: 7274833672052530344}
   m_Layer: 5
   m_Name: Card
   m_TagString: Untagged
@@ -90,6 +91,25 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &7274833672052530344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707242695709909284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b84143236a9cbfe42a431a6f52b5432d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardDragHandler
+  scaleAnimations: 1
+  scaleOnHover: 1.15
+  scaleOnSelect: 1.25
+  scaleTransition: 0.15
+  scaleEase: 27
+  hoverPunchAngle: 5
+  hoverTransition: 0.15
 --- !u!1 &852616670632787928
 GameObject:
   m_ObjectHideFlags: 0
