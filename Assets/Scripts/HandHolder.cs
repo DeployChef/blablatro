@@ -21,6 +21,7 @@ public class HandHolder : MonoBehaviour
     [SerializeField] Button discardButton;
 
     [SerializeField] ComboProcessor comboProcessor;
+    [SerializeField] Deck deck;
 
     [SerializeField] TextMeshProUGUI handsText;
     [SerializeField] TextMeshProUGUI discardsText;
@@ -149,12 +150,12 @@ public class HandHolder : MonoBehaviour
     private void DrawCards()
     {
         var count = handSize - _cards.Count;
-        for (int i = 0; i < count; i++)
+        var cards = deck.Draw(count);
+        foreach (var cardData in cards)
         {
             var obj = Instantiate(cardPrefab, transform);
             var card = obj.GetComponent<Card>();
-            var nameC = i.ToString();
-            card.Initialize(nameC);
+            card.Initialize(cardData);
             _cards.Add(card);
         }
     }

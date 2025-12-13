@@ -2,6 +2,7 @@ using DG.Tweening;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace CardScripts
 {
@@ -22,11 +23,18 @@ namespace CardScripts
         [SerializeField] private float hoverPunchAngle = 5;
         [SerializeField] private float hoverTransition = .15f;
 
+        [SerializeField] private Image bodyImage;
+        [SerializeField] private Image valueImage;
+        [SerializeField] private Image sealImage;
+
         public bool IsDragged { get; set; }
         public Vector3 HolderPosition { get; set; }
         public bool IsSelected { get; private set; }
 
-        [SerializeField] private TextMeshProUGUI nameText;
+        public Rank Rank { get; set; }
+        public Suit Suit { get; set; }
+        public int Value { get; set; }
+
 
         Canvas _canvas;
 
@@ -36,10 +44,12 @@ namespace CardScripts
             _canvas = GetComponentInParent<Canvas>();
         }
 
-        public void Initialize(string cardName)
+        public void Initialize(CardData cardData)
         {
-            if(nameText)
-                nameText.text = cardName;
+            valueImage.sprite = cardData.artwork;
+            Rank = cardData.rank;
+            Suit = cardData.suit;
+            Value = cardData.rank.ToGameValue();
         }
 
         public void Select()

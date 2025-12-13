@@ -1,0 +1,2661 @@
+fileFormatVersion: 2
+guid: fb23c35db6a5f7c4cbc2d63114439f93
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6555575649291838755
+    second: Cards_0
+  - first:
+      213: -1636742031616846006
+    second: Cards_1
+  - first:
+      213: -7557494978891415441
+    second: Cards_2
+  - first:
+      213: 6220208007999549204
+    second: Cards_3
+  - first:
+      213: -2613411450045547498
+    second: Cards_4
+  - first:
+      213: 6084249756908604392
+    second: Cards_5
+  - first:
+      213: -6663811380663864060
+    second: Cards_6
+  - first:
+      213: 4800566814532983255
+    second: Cards_7
+  - first:
+      213: -2888899937977690089
+    second: Cards_8
+  - first:
+      213: 6034864100499761545
+    second: Cards_9
+  - first:
+      213: -9006234362928969064
+    second: Cards_10
+  - first:
+      213: 8048101208271225017
+    second: Cards_11
+  - first:
+      213: 369821036217798017
+    second: Cards_12
+  - first:
+      213: -3056297102037108793
+    second: Cards_13
+  - first:
+      213: 4825128673663840708
+    second: Cards_14
+  - first:
+      213: -769374233221200952
+    second: Cards_15
+  - first:
+      213: -707606712582129023
+    second: Cards_16
+  - first:
+      213: 4936984840038467387
+    second: Cards_17
+  - first:
+      213: -4596500826337777618
+    second: Cards_18
+  - first:
+      213: -811591575975729860
+    second: Cards_19
+  - first:
+      213: -5726090553143854400
+    second: Cards_20
+  - first:
+      213: -1275064040825719894
+    second: Cards_21
+  - first:
+      213: -4448962368760175236
+    second: Cards_22
+  - first:
+      213: -8855467159889313431
+    second: Cards_23
+  - first:
+      213: 4553411022110548131
+    second: Cards_24
+  - first:
+      213: -5368307831544180767
+    second: Cards_25
+  - first:
+      213: 9025175845448281247
+    second: Cards_26
+  - first:
+      213: -4877040715876287241
+    second: Cards_27
+  - first:
+      213: -7721618695287029235
+    second: Cards_28
+  - first:
+      213: 1530772536873026181
+    second: Cards_29
+  - first:
+      213: 3599973415465183345
+    second: Cards_30
+  - first:
+      213: -1421651443703068562
+    second: Cards_31
+  - first:
+      213: 5542925698761986857
+    second: Cards_32
+  - first:
+      213: -5378756458226701737
+    second: Cards_33
+  - first:
+      213: -7039552717889635898
+    second: Cards_34
+  - first:
+      213: -3670444810596100101
+    second: Cards_35
+  - first:
+      213: -661906787361178631
+    second: Cards_36
+  - first:
+      213: 8780115090783402845
+    second: Cards_37
+  - first:
+      213: -3493636700439865340
+    second: Cards_38
+  - first:
+      213: 9188333498531739174
+    second: Cards_39
+  - first:
+      213: 3378298235695921167
+    second: Cards_40
+  - first:
+      213: 1868799596187022845
+    second: Cards_41
+  - first:
+      213: -2350320954603816688
+    second: Cards_42
+  - first:
+      213: 7349929364483814873
+    second: Cards_43
+  - first:
+      213: 2860096628934294115
+    second: Cards_44
+  - first:
+      213: -814205962059311787
+    second: Cards_45
+  - first:
+      213: -4191427501645063365
+    second: Cards_46
+  - first:
+      213: 2967557706117954694
+    second: Cards_47
+  - first:
+      213: -9162683967630634038
+    second: Cards_48
+  - first:
+      213: 4943455854006155028
+    second: Cards_49
+  - first:
+      213: 4463306761968048449
+    second: Cards_50
+  - first:
+      213: 2963559230854855473
+    second: Cards_51
+  - first:
+      213: -5918381840280175526
+    second: Cards_52
+  - first:
+      213: -4423995419813799855
+    second: Cards_53
+  - first:
+      213: 504965767641513020
+    second: Cards_54
+  - first:
+      213: 3817725385822593044
+    second: Cards_55
+  - first:
+      213: -1178081079062083302
+    second: Cards_56
+  - first:
+      213: -1480076247341408961
+    second: Cards_57
+  - first:
+      213: 6263785248360433872
+    second: Cards_58
+  - first:
+      213: 113332533608612310
+    second: Cards_59
+  - first:
+      213: 7455634425518865472
+    second: Cards_60
+  - first:
+      213: 5002531542728107793
+    second: Cards_61
+  - first:
+      213: 8775704224336850081
+    second: Cards_62
+  - first:
+      213: -6609215491395197463
+    second: Cards_63
+  - first:
+      213: 4812094406687951862
+    second: Cards_64
+  - first:
+      213: -4787288509780765047
+    second: Cards_65
+  - first:
+      213: 3652125773015627716
+    second: Cards_66
+  - first:
+      213: 4428892103398943810
+    second: Cards_67
+  - first:
+      213: 6984071502517617681
+    second: Cards_68
+  - first:
+      213: 1939163351996195427
+    second: Cards_69
+  - first:
+      213: 3038003418249740761
+    second: Cards_70
+  - first:
+      213: 6988424530941969477
+    second: Cards_71
+  - first:
+      213: 445445158293073235
+    second: Cards_72
+  - first:
+      213: 654959200777053434
+    second: Cards_73
+  - first:
+      213: 2834650626844816832
+    second: Cards_74
+  - first:
+      213: 417354429506130850
+    second: Cards_75
+  - first:
+      213: 2681481847880253645
+    second: Cards_76
+  - first:
+      213: 9173128242535215935
+    second: Cards_77
+  - first:
+      213: -8128732171429530111
+    second: Cards_78
+  - first:
+      213: 6756325245240170647
+    second: Cards_79
+  - first:
+      213: 7139173318533991969
+    second: Cards_80
+  - first:
+      213: -2838663978270527375
+    second: Cards_81
+  - first:
+      213: 1286123191483972934
+    second: Cards_82
+  - first:
+      213: -7521619153717723538
+    second: Cards_83
+  - first:
+      213: -4606655318359519599
+    second: Cards_84
+  - first:
+      213: -6965617034548745345
+    second: Cards_85
+  - first:
+      213: -3174529108818259646
+    second: Cards_86
+  - first:
+      213: 3412898484789660481
+    second: Cards_87
+  - first:
+      213: -2500881793230107863
+    second: Cards_88
+  - first:
+      213: -4317668213947650058
+    second: Cards_89
+  - first:
+      213: 6420067272062535835
+    second: Cards_90
+  - first:
+      213: -5820951808372411638
+    second: Cards_91
+  - first:
+      213: -9057908718421952643
+    second: Cards_92
+  - first:
+      213: -616386631355272113
+    second: Cards_93
+  - first:
+      213: 3298442002228869696
+    second: Cards_94
+  - first:
+      213: -5683042460195679950
+    second: Cards_95
+  - first:
+      213: -110187211036495204
+    second: Cards_96
+  - first:
+      213: -893170113396252318
+    second: Cards_97
+  - first:
+      213: 8805441829606846927
+    second: Cards_98
+  - first:
+      213: -6328577070546100049
+    second: Cards_99
+  - first:
+      213: 7081356480554812274
+    second: Cards_100
+  - first:
+      213: -7307604359336800486
+    second: Cards_101
+  - first:
+      213: -5479547236986542044
+    second: Cards_102
+  - first:
+      213: -2331721072561618601
+    second: Cards_103
+  - first:
+      213: 257063617387159818
+    second: Cards_104
+  - first:
+      213: 7869848894932915822
+    second: Cards_105
+  - first:
+      213: -4737394837338647237
+    second: Cards_106
+  - first:
+      213: -1672925221591290732
+    second: Cards_107
+  - first:
+      213: -8548739080592282187
+    second: Cards_108
+  - first:
+      213: -6701241768043182370
+    second: Cards_109
+  - first:
+      213: 3252088552440954856
+    second: Cards_110
+  - first:
+      213: 8302246007270387986
+    second: Cards_111
+  - first:
+      213: -5874862736570294860
+    second: Cards_112
+  - first:
+      213: -7263307046144072955
+    second: Cards_113
+  - first:
+      213: -914944809093850617
+    second: Cards_114
+  - first:
+      213: -6687316078151585944
+    second: Cards_115
+  - first:
+      213: -8984122360657831642
+    second: Cards_116
+  - first:
+      213: 8297290373880482839
+    second: Cards_117
+  - first:
+      213: 1176625402013508887
+    second: Cards_118
+  - first:
+      213: -3176088106719483951
+    second: Cards_119
+  - first:
+      213: -3539804905303290332
+    second: Cards_120
+  - first:
+      213: 1902887134233141937
+    second: Cards_121
+  - first:
+      213: -6620037397093710171
+    second: Cards_122
+  - first:
+      213: -7024776040919563287
+    second: Cards_123
+  - first:
+      213: 6534873651705429200
+    second: Cards_124
+  - first:
+      213: -3242729650962494721
+    second: Cards_125
+  - first:
+      213: 6069481540068661828
+    second: Cards_126
+  - first:
+      213: -963929822466410975
+    second: Cards_127
+  - first:
+      213: -7657683374263040737
+    second: Cards_128
+  - first:
+      213: 7920568941987746573
+    second: Cards_129
+  - first:
+      213: -633603458040610192
+    second: Cards_130
+  - first:
+      213: -723514161898600702
+    second: Cards_131
+  - first:
+      213: -4326351558078019652
+    second: Cards_132
+  - first:
+      213: 4984462118566903440
+    second: Cards_133
+  - first:
+      213: -456532855852435745
+    second: Cards_134
+  - first:
+      213: 8849198613967696985
+    second: Cards_135
+  - first:
+      213: 3346819036424231751
+    second: Cards_136
+  - first:
+      213: 2741319317382839426
+    second: Cards_137
+  - first:
+      213: -4419539057546427748
+    second: Cards_138
+  - first:
+      213: -1842735968761708706
+    second: Cards_139
+  - first:
+      213: -102151088813371437
+    second: Cards_140
+  - first:
+      213: 4595450329385488636
+    second: Cards_141
+  - first:
+      213: -6782919248363558556
+    second: Cards_142
+  - first:
+      213: -3422299040991373714
+    second: Cards_143
+  - first:
+      213: -492627046020083583
+    second: Cards_144
+  - first:
+      213: -4027144359159675073
+    second: Cards_145
+  - first:
+      213: -6352315949865399046
+    second: Cards_146
+  - first:
+      213: 8469080406415120112
+    second: Cards_147
+  - first:
+      213: -4519221274395678861
+    second: Cards_148
+  - first:
+      213: 4479195103144072775
+    second: Cards_149
+  - first:
+      213: -5796437203359110492
+    second: Cards_150
+  - first:
+      213: -6525771636143199429
+    second: Cards_151
+  - first:
+      213: -3010611884390610578
+    second: Cards_152
+  - first:
+      213: 8221608515495668063
+    second: Cards_153
+  - first:
+      213: -5270989408659074375
+    second: Cards_154
+  - first:
+      213: -7585109023008103354
+    second: Cards_155
+  - first:
+      213: -6436412374618803924
+    second: Cards_156
+  - first:
+      213: 6664852919142654070
+    second: Cards_157
+  - first:
+      213: 1966225737424324882
+    second: Cards_158
+  - first:
+      213: -8163766294122905448
+    second: Cards_159
+  - first:
+      213: -2511753384092935889
+    second: Cards_160
+  - first:
+      213: -7829896946415716339
+    second: Cards_161
+  - first:
+      213: 3915797836743379159
+    second: Cards_162
+  - first:
+      213: 7065745451842887774
+    second: Cards_163
+  - first:
+      213: -4172637713101824784
+    second: Cards_164
+  - first:
+      213: 8352323311598683076
+    second: Cards_165
+  - first:
+      213: -6645381576068836407
+    second: Cards_166
+  - first:
+      213: 2561545123987023220
+    second: Cards_167
+  - first:
+      213: 1145847487657260781
+    second: Cards_168
+  - first:
+      213: 161403825058143336
+    second: Cards_169
+  - first:
+      213: -3606387023632520955
+    second: Cards_170
+  - first:
+      213: -4815176150740427476
+    second: Cards_171
+  - first:
+      213: -5768686418178861009
+    second: Cards_172
+  - first:
+      213: -7293689760715672855
+    second: Cards_173
+  - first:
+      213: -9126108721153839306
+    second: Cards_174
+  - first:
+      213: -648024209035210830
+    second: Cards_175
+  - first:
+      213: -3132948574580452705
+    second: Cards_176
+  - first:
+      213: 5314328972662731480
+    second: Cards_177
+  - first:
+      213: 5140757815516958821
+    second: Cards_178
+  - first:
+      213: -1336326734887421304
+    second: Cards_179
+  - first:
+      213: 4497942580125262702
+    second: Cards_180
+  - first:
+      213: -4613223073412396297
+    second: Cards_181
+  - first:
+      213: -4575910859771485250
+    second: Cards_182
+  - first:
+      213: -443387678074103546
+    second: Cards_183
+  - first:
+      213: -2545655239682815508
+    second: Cards_184
+  - first:
+      213: 233480450065321703
+    second: Cards_185
+  - first:
+      213: -601033919185561771
+    second: Cards_186
+  - first:
+      213: -7012782865209276609
+    second: Cards_187
+  - first:
+      213: 2312410794712640842
+    second: Cards_188
+  - first:
+      213: 5710084402633421537
+    second: Cards_189
+  - first:
+      213: 7985065739180763750
+    second: Cards_190
+  - first:
+      213: 2701374149184845601
+    second: Cards_191
+  - first:
+      213: 3935527555755661339
+    second: Cards_192
+  - first:
+      213: -1072869734445093051
+    second: Cards_193
+  - first:
+      213: 5852405311929397433
+    second: Cards_194
+  - first:
+      213: -4942158826687604571
+    second: Cards_195
+  - first:
+      213: -8846474429600181345
+    second: Cards_196
+  - first:
+      213: -4816677665447235398
+    second: Cards_197
+  - first:
+      213: 8971097602646512222
+    second: Cards_198
+  - first:
+      213: -7477154637323674612
+    second: Cards_199
+  - first:
+      213: -6317930431927417613
+    second: Cards_200
+  - first:
+      213: -7019290570018072345
+    second: Cards_201
+  - first:
+      213: -1817784326144673227
+    second: Cards_202
+  - first:
+      213: -6269636648772117394
+    second: Cards_203
+  - first:
+      213: -4152814037040043548
+    second: Cards_204
+  - first:
+      213: 8120441572794643156
+    second: Cards_205
+  - first:
+      213: -1212476488072804367
+    second: Cards_206
+  - first:
+      213: -1514191975151822189
+    second: Cards_207
+  - first:
+      213: -2110755836222880788
+    second: Cards_208
+  - first:
+      213: -1914631458931368205
+    second: Cards_209
+  - first:
+      213: 4403181898301997255
+    second: Cards_210
+  - first:
+      213: -181566863057002959
+    second: Cards_211
+  - first:
+      213: -1618116692498608011
+    second: Cards_212
+  - first:
+      213: -6659847472217440649
+    second: Cards_213
+  - first:
+      213: -4587636944696751657
+    second: Cards_214
+  - first:
+      213: -6278216208198856122
+    second: Cards_215
+  - first:
+      213: -7256298795597797564
+    second: Cards_216
+  - first:
+      213: 8608144914543274363
+    second: Cards_217
+  - first:
+      213: 4292560488673953417
+    second: Cards_218
+  - first:
+      213: -1160903194327985763
+    second: Cards_219
+  - first:
+      213: -7910765642973351677
+    second: Cards_220
+  - first:
+      213: -5300222042029515159
+    second: Cards_221
+  - first:
+      213: -2092232725945914955
+    second: Cards_222
+  - first:
+      213: -8824464367809709398
+    second: Cards_223
+  - first:
+      213: 5623203890033137329
+    second: Cards_224
+  - first:
+      213: 7125023676092038653
+    second: Cards_225
+  - first:
+      213: 429768947901997270
+    second: Cards_226
+  - first:
+      213: 6393644146554678342
+    second: Cards_227
+  - first:
+      213: -8020091327714149977
+    second: Cards_228
+  - first:
+      213: -4036031291710039511
+    second: Cards_229
+  - first:
+      213: -1511038593647200350
+    second: Cards_230
+  - first:
+      213: 2884622064174986525
+    second: Cards_231
+  - first:
+      213: -1064432883983114890
+    second: Cards_232
+  - first:
+      213: 5475463073571451211
+    second: Cards_233
+  - first:
+      213: -5792559856191954056
+    second: Cards_234
+  - first:
+      213: 2830660112227163625
+    second: Cards_235
+  - first:
+      213: 2888376810016258710
+    second: Cards_236
+  - first:
+      213: -2110912093220441584
+    second: Cards_237
+  - first:
+      213: -6264639625423590301
+    second: Cards_238
+  - first:
+      213: -2270785671407094986
+    second: Cards_239
+  - first:
+      213: -6255512293885787568
+    second: Cards_240
+  - first:
+      213: -3447984770275399940
+    second: Cards_241
+  - first:
+      213: -4059618255036717295
+    second: Cards_242
+  - first:
+      213: -7830491356493526166
+    second: Cards_243
+  - first:
+      213: -7876397944315490380
+    second: Cards_244
+  - first:
+      213: 2648902733414992262
+    second: Cards_245
+  - first:
+      213: 3688827024041626233
+    second: Cards_246
+  - first:
+      213: -1130379421012914468
+    second: Cards_247
+  - first:
+      213: 1601237375803379355
+    second: Cards_248
+  - first:
+      213: -2337406434991607277
+    second: Cards_249
+  - first:
+      213: 218435406200774980
+    second: Cards_250
+  - first:
+      213: -304731408769846023
+    second: Cards_251
+  - first:
+      213: 9043354885740043642
+    second: Cards_252
+  - first:
+      213: 5654605754699535801
+    second: Cards_253
+  - first:
+      213: 3082016898133043434
+    second: Cards_254
+  - first:
+      213: -1598219991833223508
+    second: Cards_255
+  - first:
+      213: -3644536065708390396
+    second: Cards_256
+  - first:
+      213: 6859961675231053066
+    second: Cards_257
+  - first:
+      213: -5060124063901318215
+    second: Cards_258
+  - first:
+      213: 2947626730901375437
+    second: Cards_259
+  - first:
+      213: 8120780636215028233
+    second: Cards_260
+  - first:
+      213: 754902416152417863
+    second: Cards_261
+  - first:
+      213: -5708564845227209026
+    second: Cards_262
+  - first:
+      213: -1893427211662726867
+    second: Cards_263
+  - first:
+      213: 1595975532206569672
+    second: Cards_264
+  - first:
+      213: -654367108478945108
+    second: Cards_265
+  - first:
+      213: 8207225119073121377
+    second: Cards_266
+  - first:
+      213: 7106162541270624730
+    second: Cards_267
+  - first:
+      213: -2718911749765702667
+    second: Cards_268
+  - first:
+      213: 3491919835274626492
+    second: Cards_269
+  - first:
+      213: 668624039396085349
+    second: Cards_270
+  - first:
+      213: -483231856351229680
+    second: Cards_271
+  - first:
+      213: 7038863029372945975
+    second: Cards_272
+  - first:
+      213: -2779466967440162858
+    second: Cards_273
+  - first:
+      213: 4336334108133949291
+    second: Cards_274
+  - first:
+      213: 8488473550113371357
+    second: Cards_275
+  - first:
+      213: 5803416457618320209
+    second: Cards_276
+  - first:
+      213: -2842575166817940084
+    second: Cards_277
+  - first:
+      213: 4444941325520996723
+    second: Cards_278
+  - first:
+      213: 1664662386963811148
+    second: Cards_279
+  - first:
+      213: 1767601999518293234
+    second: Cards_280
+  - first:
+      213: 7360694424543814258
+    second: Cards_281
+  - first:
+      213: -5165237969334361397
+    second: Cards_282
+  - first:
+      213: 421317944834991592
+    second: Cards_283
+  - first:
+      213: 3451953858144922773
+    second: Cards_284
+  - first:
+      213: 4060347467042389880
+    second: Cards_285
+  - first:
+      213: 1620828049757918231
+    second: Cards_286
+  - first:
+      213: 7925267303897607642
+    second: Cards_287
+  - first:
+      213: -8789114796590918849
+    second: Cards_288
+  - first:
+      213: 4752353235715002918
+    second: Cards_289
+  - first:
+      213: -1592068948472893377
+    second: Cards_290
+  - first:
+      213: -3019562168534042106
+    second: Cards_291
+  - first:
+      213: 4719570126382696893
+    second: Cards_292
+  - first:
+      213: -3232367022385435377
+    second: Cards_293
+  - first:
+      213: -2902696781885144176
+    second: Cards_294
+  - first:
+      213: 7653783052756432445
+    second: Cards_295
+  - first:
+      213: 782997475932667348
+    second: Cards_296
+  - first:
+      213: 4199197689809780268
+    second: Cards_297
+  - first:
+      213: -5543553187519837631
+    second: Cards_298
+  - first:
+      213: 6407817179657389111
+    second: Cards_299
+  - first:
+      213: -3254824820784896239
+    second: Cards_300
+  - first:
+      213: -3414429677355706114
+    second: Cards_301
+  - first:
+      213: -1834714000782073515
+    second: Cards_302
+  - first:
+      213: -2143008684351358597
+    second: Cards_303
+  - first:
+      213: 5083329025412198990
+    second: Cards_304
+  - first:
+      213: 4151224784359441954
+    second: Cards_305
+  - first:
+      213: -4638145524366678287
+    second: Cards_306
+  - first:
+      213: -4025853174266397744
+    second: Cards_307
+  - first:
+      213: 8353702001315235777
+    second: Cards_308
+  - first:
+      213: -2885297380677666545
+    second: Cards_309
+  - first:
+      213: -8028739603887864886
+    second: Cards_310
+  - first:
+      213: -364017761939886708
+    second: Cards_311
+  - first:
+      213: 3200253935679506762
+    second: Cards_312
+  - first:
+      213: 4958361100643273729
+    second: Cards_313
+  - first:
+      213: -6700062557632565981
+    second: Cards_314
+  - first:
+      213: 6189632268795637789
+    second: Cards_315
+  - first:
+      213: -1385627097038814464
+    second: Cards_316
+  - first:
+      213: 2456182914729216827
+    second: Cards_317
+  - first:
+      213: -1695018748157174202
+    second: Cards_318
+  - first:
+      213: -4755518527696283719
+    second: Cards_319
+  - first:
+      213: 1301463992763634849
+    second: Cards_320
+  - first:
+      213: -6937427423931404601
+    second: Cards_321
+  - first:
+      213: -6381175772751782788
+    second: Cards_322
+  - first:
+      213: 5135763676251803161
+    second: Cards_323
+  - first:
+      213: -9062655404660401749
+    second: Cards_324
+  - first:
+      213: 3242263016657301278
+    second: Cards_325
+  - first:
+      213: 4211086469159294952
+    second: Cards_326
+  - first:
+      213: -8060334254557491589
+    second: Cards_327
+  - first:
+      213: -2534597819473517573
+    second: Cards_328
+  - first:
+      213: 4833241562906515700
+    second: Cards_329
+  - first:
+      213: -5798083782478175358
+    second: Cards_330
+  - first:
+      213: 9145490727190939190
+    second: Cards_331
+  - first:
+      213: 2561857184216060900
+    second: Cards_332
+  - first:
+      213: -7544066164587000534
+    second: Cards_333
+  - first:
+      213: 2142816003629930948
+    second: Cards_334
+  - first:
+      213: -7490768417267650854
+    second: Cards_335
+  - first:
+      213: 3857340128909048478
+    second: Cards_336
+  - first:
+      213: -3876171490883457426
+    second: Cards_337
+  - first:
+      213: -7457064248261604291
+    second: Cards_338
+  - first:
+      213: 1774537386203634813
+    second: Cards_339
+  - first:
+      213: 3794072176844073686
+    second: Cards_340
+  - first:
+      213: 3416890063267798610
+    second: Cards_341
+  - first:
+      213: -2442370032664400580
+    second: Cards_342
+  - first:
+      213: -3152082956500050309
+    second: Cards_343
+  - first:
+      213: -6431023071963374475
+    second: Cards_344
+  - first:
+      213: 3853785722537017588
+    second: Cards_345
+  - first:
+      213: -4192714193613223399
+    second: Cards_346
+  - first:
+      213: -7840950255596356992
+    second: Cards_347
+  - first:
+      213: -6558993567646676517
+    second: Cards_348
+  - first:
+      213: 7262975988959377608
+    second: Cards_349
+  - first:
+      213: 8002218909656851912
+    second: Cards_350
+  - first:
+      213: -8291088942346358862
+    second: Cards_351
+  - first:
+      213: -1679120158813318711
+    second: Cards_352
+  - first:
+      213: -8717040096450419116
+    second: Cards_353
+  - first:
+      213: -258018356487245387
+    second: Cards_354
+  - first:
+      213: -7454736741829392097
+    second: Cards_355
+  - first:
+      213: -310188997714187292
+    second: Cards_356
+  - first:
+      213: 7150037703611116796
+    second: Cards_357
+  - first:
+      213: -4121847076160322470
+    second: Cards_358
+  - first:
+      213: 4390625284941747942
+    second: Cards_359
+  - first:
+      213: 7238869495530445798
+    second: Cards_360
+  - first:
+      213: -7446937302324144928
+    second: Cards_361
+  - first:
+      213: -8574074733113398496
+    second: Cards_362
+  - first:
+      213: -226440316820269396
+    second: Cards_363
+  - first:
+      213: 8217926184103716194
+    second: Cards_364
+  - first:
+      213: 802085921540543714
+    second: Cards_365
+  - first:
+      213: 276999281837867904
+    second: Cards_366
+  - first:
+      213: 554365257732375439
+    second: Cards_367
+  - first:
+      213: 8783239151012778394
+    second: Cards_368
+  - first:
+      213: -2052920493719876445
+    second: Cards_369
+  - first:
+      213: 2260622315928519592
+    second: Cards_370
+  - first:
+      213: -2773957226530092552
+    second: Cards_371
+  - first:
+      213: -1425385644647328338
+    second: Cards_372
+  - first:
+      213: -813652448326371026
+    second: Cards_373
+  - first:
+      213: 3361204929606003484
+    second: Cards_374
+  - first:
+      213: -8730387015490145898
+    second: Cards_375
+  - first:
+      213: -8434291560467817108
+    second: Cards_376
+  - first:
+      213: 5779555697168344427
+    second: Cards_377
+  - first:
+      213: 5381268800758465552
+    second: Cards_378
+  - first:
+      213: -7544245391589355421
+    second: Cards_379
+  - first:
+      213: -1943768027406285681
+    second: Cards_380
+  - first:
+      213: -2261190811640754972
+    second: Cards_381
+  - first:
+      213: -8133958658969702616
+    second: Cards_382
+  - first:
+      213: 3772204568729307626
+    second: Cards_383
+  - first:
+      213: -1472386755121494161
+    second: Cards_384
+  - first:
+      213: -1462964003613206422
+    second: Cards_385
+  - first:
+      213: -2306518597928903760
+    second: Cards_386
+  - first:
+      213: -7468556119930269981
+    second: Cards_387
+  - first:
+      213: -2567096945634486954
+    second: Cards_388
+  - first:
+      213: 970143446114138325
+    second: Cards_389
+  - first:
+      213: 8327430639380059226
+    second: Cards_390
+  - first:
+      213: 3740611181167845899
+    second: Cards_391
+  - first:
+      213: -5301789168433180314
+    second: Cards_392
+  - first:
+      213: -9038514121006109819
+    second: Cards_393
+  - first:
+      213: -7629889786904932822
+    second: Cards_394
+  - first:
+      213: -976582401610850989
+    second: Cards_395
+  - first:
+      213: -96779359415449695
+    second: Cards_396
+  - first:
+      213: -4907991171788688741
+    second: Cards_397
+  - first:
+      213: 6196451152397041761
+    second: Cards_398
+  - first:
+      213: -4781464806980629799
+    second: Cards_399
+  - first:
+      213: -8283481616319044021
+    second: Cards_400
+  - first:
+      213: -1714453870213502194
+    second: Cards_401
+  - first:
+      213: -5298302370780205779
+    second: Cards_402
+  - first:
+      213: 708784879449696481
+    second: Cards_403
+  - first:
+      213: -5758193322787678598
+    second: Cards_404
+  - first:
+      213: 6157954380080900735
+    second: Cards_405
+  - first:
+      213: -289123479574354194
+    second: Cards_406
+  - first:
+      213: 6742726547746893941
+    second: Cards_407
+  - first:
+      213: 5260099439091289638
+    second: Cards_408
+  - first:
+      213: -1078774953119648711
+    second: Cards_409
+  - first:
+      213: 3804379304795575087
+    second: Cards_410
+  - first:
+      213: 3401719378237656356
+    second: Cards_411
+  - first:
+      213: 746523179364390455
+    second: Cards_412
+  - first:
+      213: -6649589026845911867
+    second: Cards_413
+  - first:
+      213: 3846347425828980570
+    second: Cards_414
+  - first:
+      213: -7107603771534555891
+    second: Cards_415
+  - first:
+      213: -6977271705426311868
+    second: Cards_416
+  - first:
+      213: -790126429892903215
+    second: Cards_417
+  - first:
+      213: -5867386448175993242
+    second: Cards_418
+  - first:
+      213: 7074899129779626806
+    second: Cards_419
+  - first:
+      213: 990124110697993036
+    second: Cards_420
+  - first:
+      213: -1714346483378185529
+    second: Cards_421
+  - first:
+      213: -4317014303048011827
+    second: Cards_422
+  - first:
+      213: 8092953217089155815
+    second: Cards_423
+  - first:
+      213: 6477748753392792973
+    second: Cards_424
+  - first:
+      213: 918251912293368696
+    second: Cards_425
+  - first:
+      213: 4237132265271083317
+    second: Cards_426
+  - first:
+      213: -4402447047848819021
+    second: Cards_427
+  - first:
+      213: -9059555551796604484
+    second: Cards_428
+  - first:
+      213: -7555259422688019511
+    second: Cards_429
+  - first:
+      213: -8792240255225538309
+    second: Cards_430
+  - first:
+      213: -7853811669925648186
+    second: Cards_431
+  - first:
+      213: -3333148095838994776
+    second: Cards_432
+  - first:
+      213: -3699787206708437810
+    second: Cards_433
+  - first:
+      213: 8405202816633515948
+    second: Cards_434
+  - first:
+      213: -2065692046492387128
+    second: Cards_435
+  - first:
+      213: 4511538857878797656
+    second: Cards_436
+  - first:
+      213: 295624820099243803
+    second: Cards_437
+  - first:
+      213: 4762437816854978520
+    second: Cards_438
+  - first:
+      213: 972272506650962344
+    second: Cards_439
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cards_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 285
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda52cd0eaae505a0800000000000000
+      internalID: -6555575649291838755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 285
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47d6884bcf1949e0800000000000000
+      internalID: -1636742031616846006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 285
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f600167ab526e1790800000000000000
+      internalID: -7557494978891415441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 285
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f6ad92a3e925650800000000000000
+      internalID: 6220208007999549204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_4
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 285
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61cb814f12c4bbbd0800000000000000
+      internalID: -2613411450045547498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_5
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 285
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb4b4d0be89f6450800000000000000
+      internalID: 6084249756908604392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_6
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 285
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405335d0bd26583a0800000000000000
+      internalID: -6663811380663864060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_7
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 285
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d954c4551a0f9240800000000000000
+      internalID: 4800566814532983255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_8
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 285
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718113dffc098e7d0800000000000000
+      internalID: -2888899937977690089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_9
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 285
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989ab02ece420c350800000000000000
+      internalID: 6034864100499761545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_10
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 285
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ac3b1609d630380800000000000000
+      internalID: -9006234362928969064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_11
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 285
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b00663886990bf60800000000000000
+      internalID: 8048101208271225017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_12
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 285
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d8a36e54ed12500800000000000000
+      internalID: 369821036217798017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7b5098af9d595d0800000000000000
+      internalID: -3056297102037108793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_14
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 190
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1f84dc6fc46f240800000000000000
+      internalID: 4825128673663840708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_15
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 190
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c303811632a255f0800000000000000
+      internalID: -769374233221200952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_16
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 190
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a3cd7a1731e26f0800000000000000
+      internalID: -707606712582129023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_17
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 190
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b374bf30e81b38440800000000000000
+      internalID: 4936984840038467387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_18
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 190
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28e85c0ad2f530c0800000000000000
+      internalID: -4596500826337777618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_19
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 190
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35644bf2c5acb4f0800000000000000
+      internalID: -811591575975729860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_20
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 190
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0caf324eaf6d880b0800000000000000
+      internalID: -5726090553143854400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_21
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 190
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa375bca2001e4ee0800000000000000
+      internalID: -1275064040825719894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_22
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 190
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7528f61c4c1242c0800000000000000
+      internalID: -4448962368760175236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_23
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 190
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96109ae498f0b1580800000000000000
+      internalID: -8855467159889313431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_24
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 190
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a06f391337f03f30800000000000000
+      internalID: 4553411022110548131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_25
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 190
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef8cdf3870ff75b0800000000000000
+      internalID: -5368307831544180767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c616f2d9ddf3d70800000000000000
+      internalID: 9025175845448281247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_27
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 95
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fcb31ffe45415cb0800000000000000
+      internalID: -4877040715876287241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_28
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 95
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02c66025bc47d490800000000000000
+      internalID: -7721618695287029235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_29
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 95
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5828d3c03856e3510800000000000000
+      internalID: 1530772536873026181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_30
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 95
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178e6a57fbca5f130800000000000000
+      internalID: 3599973415465183345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_31
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 95
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6848af4b87454ce0800000000000000
+      internalID: -1421651443703068562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_32
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 95
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923971b2e8d6cec40800000000000000
+      internalID: 5542925698761986857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_33
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 95
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a2f06cf71da55b0800000000000000
+      internalID: -5378756458226701737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_34
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 95
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c97d88a91c7e4e90800000000000000
+      internalID: -7039552717889635898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_35
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 95
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf75eb044e5ff0dc0800000000000000
+      internalID: -3670444810596100101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_36
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 95
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fbbae8a84f60d6f0800000000000000
+      internalID: -661906787361178631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_37
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 95
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5bf031f72c39d970800000000000000
+      internalID: 8780115090783402845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_38
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 95
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40893085eeb148fc0800000000000000
+      internalID: -3493636700439865340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6267ec192a4838f70800000000000000
+      internalID: 9188333498531739174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_40
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08fbfba85022ee20800000000000000
+      internalID: 3378298235695921167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_41
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 0
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5fe17d45f4fe910800000000000000
+      internalID: 1868799596187022845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_42
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 0
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019bea85b8bf16fd0800000000000000
+      internalID: -2350320954603816688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_43
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 0
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5354eb0d1300660800000000000000
+      internalID: 7349929364483814873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_44
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 0
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36abbe60bba11b720800000000000000
+      internalID: 2860096628934294115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_45
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5551379cdfb53b4f0800000000000000
+      internalID: -814205962059311787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_46
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 0
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b94a6f4ee05d5c0800000000000000
+      internalID: -4191427501645063365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_47
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 0
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c32abc202ee2920800000000000000
+      internalID: 2967557706117954694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_48
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 0
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac395383a7b97d080800000000000000
+      internalID: -9162683967630634038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_49
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 0
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417bcdc58eeaa9440800000000000000
+      internalID: 4943455854006155028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_50
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 0
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14954b63ad9d0fd30800000000000000
+      internalID: 4463306761968048449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cards_51
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 0
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13bfee93b6da02920800000000000000
+      internalID: 2963559230854855473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 983e590422271c446b9d038ba763b3e1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":70.0,"y":95.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":1.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Cards_0: -6555575649291838755
+      Cards_1: -1636742031616846006
+      Cards_10: -9006234362928969064
+      Cards_11: 8048101208271225017
+      Cards_12: 369821036217798017
+      Cards_13: -3056297102037108793
+      Cards_14: 4825128673663840708
+      Cards_15: -769374233221200952
+      Cards_16: -707606712582129023
+      Cards_17: 4936984840038467387
+      Cards_18: -4596500826337777618
+      Cards_19: -811591575975729860
+      Cards_2: -7557494978891415441
+      Cards_20: -5726090553143854400
+      Cards_21: -1275064040825719894
+      Cards_22: -4448962368760175236
+      Cards_23: -8855467159889313431
+      Cards_24: 4553411022110548131
+      Cards_25: -5368307831544180767
+      Cards_26: 9025175845448281247
+      Cards_27: -4877040715876287241
+      Cards_28: -7721618695287029235
+      Cards_29: 1530772536873026181
+      Cards_3: 6220208007999549204
+      Cards_30: 3599973415465183345
+      Cards_31: -1421651443703068562
+      Cards_32: 5542925698761986857
+      Cards_33: -5378756458226701737
+      Cards_34: -7039552717889635898
+      Cards_35: -3670444810596100101
+      Cards_36: -661906787361178631
+      Cards_37: 8780115090783402845
+      Cards_38: -3493636700439865340
+      Cards_39: 9188333498531739174
+      Cards_4: -2613411450045547498
+      Cards_40: 3378298235695921167
+      Cards_41: 1868799596187022845
+      Cards_42: -2350320954603816688
+      Cards_43: 7349929364483814873
+      Cards_44: 2860096628934294115
+      Cards_45: -814205962059311787
+      Cards_46: -4191427501645063365
+      Cards_47: 2967557706117954694
+      Cards_48: -9162683967630634038
+      Cards_49: 4943455854006155028
+      Cards_5: 6084249756908604392
+      Cards_50: 4463306761968048449
+      Cards_51: 2963559230854855473
+      Cards_6: -6663811380663864060
+      Cards_7: 4800566814532983255
+      Cards_8: -2888899937977690089
+      Cards_9: 6034864100499761545
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

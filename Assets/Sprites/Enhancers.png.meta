@@ -1,0 +1,1055 @@
+fileFormatVersion: 2
+guid: a4de5fda32e93fc438d16f38304cff39
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8374821547473624438
+    second: Enhancers_0
+  - first:
+      213: 1395319276502434530
+    second: Enhancers_1
+  - first:
+      213: -5359243270690331498
+    second: Enhancers_2
+  - first:
+      213: 7143886246904214773
+    second: Enhancers_3
+  - first:
+      213: 5648850281138786066
+    second: Enhancers_4
+  - first:
+      213: -4875879978645568807
+    second: Enhancers_5
+  - first:
+      213: 7797199545526389289
+    second: Enhancers_6
+  - first:
+      213: -6811425174958697407
+    second: Enhancers_7
+  - first:
+      213: 5116242360505058999
+    second: Enhancers_8
+  - first:
+      213: -901748998673225865
+    second: Enhancers_9
+  - first:
+      213: 4870651954216843331
+    second: Enhancers_10
+  - first:
+      213: -8338440298265486719
+    second: Enhancers_11
+  - first:
+      213: 2247607699853933249
+    second: Enhancers_12
+  - first:
+      213: 8674951366528200288
+    second: Enhancers_13
+  - first:
+      213: -6877720055325440251
+    second: Enhancers_14
+  - first:
+      213: 2203486460866089929
+    second: Enhancers_15
+  - first:
+      213: -771145438707929464
+    second: Enhancers_16
+  - first:
+      213: 7649113024458823834
+    second: Enhancers_17
+  - first:
+      213: 7375047297825920624
+    second: Enhancers_18
+  - first:
+      213: 6997891719828688186
+    second: Enhancers_19
+  - first:
+      213: 7672581897153004126
+    second: Enhancers_20
+  - first:
+      213: -1867911214337184220
+    second: Enhancers_21
+  - first:
+      213: -2266733035929980230
+    second: Enhancers_22
+  - first:
+      213: 3542257857074590040
+    second: Enhancers_23
+  - first:
+      213: -4719243331274345050
+    second: Enhancers_24
+  - first:
+      213: 1809296636373609997
+    second: Enhancers_25
+  - first:
+      213: 4617757106561838110
+    second: Enhancers_26
+  - first:
+      213: -845195352371600435
+    second: Enhancers_27
+  - first:
+      213: 8480767071982011514
+    second: Enhancers_28
+  - first:
+      213: 8867695328108079033
+    second: Enhancers_29
+  - first:
+      213: 7087076309572411020
+    second: Enhancers_30
+  - first:
+      213: -4260881619189983833
+    second: Enhancers_31
+  - first:
+      213: -5263188618818711365
+    second: Enhancers_32
+  - first:
+      213: 7682606253559886511
+    second: Enhancers_33
+  - first:
+      213: -5209526483393590411
+    second: Enhancers_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enhancers_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 380
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67dd37263d7593470800000000000000
+      internalID: 8374821547473624438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 380
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2ce204d7b2d5310800000000000000
+      internalID: 1395319276502434530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 380
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694a999c3a420a5b0800000000000000
+      internalID: -5359243270690331498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 380
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4368e01be242360800000000000000
+      internalID: 7143886246904214773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_4
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 380
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f84acd66fb46e40800000000000000
+      internalID: 5648850281138786066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_5
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 380
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d244613ef4655cb0800000000000000
+      internalID: -4875879978645568807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_6
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 380
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a00f1eca7353c60800000000000000
+      internalID: 7797199545526389289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 285
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1441f6054e4f871a0800000000000000
+      internalID: -6811425174958697407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_8
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 285
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6c5b2e15b800740800000000000000
+      internalID: 5116242360505058999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_9
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 285
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777a48930185c73f0800000000000000
+      internalID: -901748998673225865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_10
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 285
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34838a38528089340800000000000000
+      internalID: 4870651954216843331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_11
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 285
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a55194ab8e74c80800000000000000
+      internalID: -8338440298265486719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_12
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 285
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1caf9307b4b113f10800000000000000
+      internalID: 2247607699853933249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_13
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 285
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ee3b55e4e936870800000000000000
+      internalID: 8674951366528200288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5074fb5ac0e6d80a0800000000000000
+      internalID: -6877720055325440251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_15
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 190
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c35e47f24b549e10800000000000000
+      internalID: 2203486460866089929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_16
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 190
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ea6a72f475c45f0800000000000000
+      internalID: -771145438707929464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_17
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 190
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a989eadd4cb172a60800000000000000
+      internalID: 7649113024458823834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_18
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 190
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0765e94517e695660800000000000000
+      internalID: 7375047297825920624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_19
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 190
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d490951718d1160800000000000000
+      internalID: 6997891719828688186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_20
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 190
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52c5e9959c7a7a60800000000000000
+      internalID: 7672581897153004126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ea67da5a8d316e0800000000000000
+      internalID: -1867911214337184220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_22
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 95
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab230c04052fa80e0800000000000000
+      internalID: -2266733035929980230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_23
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 95
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85174c9d0c0a82130800000000000000
+      internalID: 3542257857074590040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_24
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 95
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5f2ce9131e18eb0800000000000000
+      internalID: -4719243331274345050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_25
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 95
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0eab5864b9eb1910800000000000000
+      internalID: 1809296636373609997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_26
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 95
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c67ab5f91951040800000000000000
+      internalID: 4617757106561838110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_27
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 95
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc364181e434544f0800000000000000
+      internalID: -845195352371600435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74415c08bcb1b570800000000000000
+      internalID: 8480767071982011514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_29
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7e548fae1601b70800000000000000
+      internalID: 8867695328108079033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_30
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 0
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e5628ca5a5a5260800000000000000
+      internalID: 7087076309572411020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_31
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 0
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a590321ebe4ed4c0800000000000000
+      internalID: -4260881619189983833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_32
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 0
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb09e6536d565f6b0800000000000000
+      internalID: -5263188618818711365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_33
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 0
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2b1a4fea91e9a60800000000000000
+      internalID: 7682606253559886511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enhancers_34
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57bc55db34b04b7b0800000000000000
+      internalID: -5209526483393590411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 155f48dce43d4af47a6e007f1a4068c8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":70.0,"y":95.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":1.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Enhancers_0: 8374821547473624438
+      Enhancers_1: 1395319276502434530
+      Enhancers_10: 4870651954216843331
+      Enhancers_11: -8338440298265486719
+      Enhancers_12: 2247607699853933249
+      Enhancers_13: 8674951366528200288
+      Enhancers_14: -6877720055325440251
+      Enhancers_15: 2203486460866089929
+      Enhancers_16: -771145438707929464
+      Enhancers_17: 7649113024458823834
+      Enhancers_18: 7375047297825920624
+      Enhancers_19: 6997891719828688186
+      Enhancers_2: -5359243270690331498
+      Enhancers_20: 7672581897153004126
+      Enhancers_21: -1867911214337184220
+      Enhancers_22: -2266733035929980230
+      Enhancers_23: 3542257857074590040
+      Enhancers_24: -4719243331274345050
+      Enhancers_25: 1809296636373609997
+      Enhancers_26: 4617757106561838110
+      Enhancers_27: -845195352371600435
+      Enhancers_28: 8480767071982011514
+      Enhancers_29: 8867695328108079033
+      Enhancers_3: 7143886246904214773
+      Enhancers_30: 7087076309572411020
+      Enhancers_31: -4260881619189983833
+      Enhancers_32: -5263188618818711365
+      Enhancers_33: 7682606253559886511
+      Enhancers_34: -5209526483393590411
+      Enhancers_4: 5648850281138786066
+      Enhancers_5: -4875879978645568807
+      Enhancers_6: 7797199545526389289
+      Enhancers_7: -6811425174958697407
+      Enhancers_8: 5116242360505058999
+      Enhancers_9: -901748998673225865
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,8 +1,25 @@
 ﻿using CardScripts;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
+
+public enum HandType
+{
+    None,
+    HighCard,
+    Pair,
+    TwoPair,
+    ThreeOfAKind,
+    Straight,
+    Flush,
+    FullHouse,
+    FourOfAKind,
+    StraightFlush,
+    FiveOfAKind // если у тебя есть джокеры/повторы
+}
 
 public class ComboProcessor : MonoBehaviour
 {
@@ -20,45 +37,149 @@ public class ComboProcessor : MonoBehaviour
 
     public void SelectedChanged(List<Card> selectedCards)
     {
-        switch (selectedCards.Count)
+        if (selectedCards == null || selectedCards.Count == 0)
         {
-            case 1:
-                {
-                    UpdateComboName("High Card");
-                    currentScore.SetBasicScore(5, 1);
-                    break;
-                }
-            case 2:
-                {
-                    UpdateComboName("Pair");
-                    currentScore.SetBasicScore(10, 2);
-                    break;
-                }
-            case 3:
-                {
-                    UpdateComboName("Three of a kind");
-                    currentScore.SetBasicScore(30, 3);
-                    break;
-                }
-            case 4:
-                {
-                    UpdateComboName("Four of a kind");
-                    currentScore.SetBasicScore(40, 4);
-                    break;
-                }
-            case 5:
-                {
-                    UpdateComboName("Five");
-                    currentScore.SetBasicScore(100, 8);
-                    break;
-                }
-            default:
-                {
-                    UpdateComboName("");
-                    currentScore.SetBasicScore(0, 0);
-                    break;
-                }
+            UpdateComboName("");
+            currentScore.SetBasicScore(0, 0);
+            return;
         }
+
+        var handType = EvaluateHand(selectedCards);
+
+        switch (handType)
+        {
+            case HandType.HighCard:
+                UpdateComboName("High Card");
+                currentScore.SetBasicScore(5, 1);
+                break;
+
+            case HandType.Pair:
+                UpdateComboName("Pair");
+                currentScore.SetBasicScore(10, 2);
+                break;
+
+            case HandType.TwoPair:
+                UpdateComboName("Two Pair");
+                currentScore.SetBasicScore(15, 2);
+                break;
+
+            case HandType.ThreeOfAKind:
+                UpdateComboName("Three of a kind");
+                currentScore.SetBasicScore(30, 3);
+                break;
+
+            case HandType.Straight:
+                UpdateComboName("Straight");
+                currentScore.SetBasicScore(40, 4);
+                break;
+
+            case HandType.Flush:
+                UpdateComboName("Flush");
+                currentScore.SetBasicScore(45, 4);
+                break;
+
+            case HandType.FullHouse:
+                UpdateComboName("Full House");
+                currentScore.SetBasicScore(60, 5);
+                break;
+
+            case HandType.FourOfAKind:
+                UpdateComboName("Four of a kind");
+                currentScore.SetBasicScore(80, 6);
+                break;
+
+            case HandType.StraightFlush:
+                UpdateComboName("Straight Flush");
+                currentScore.SetBasicScore(100, 8);
+                break;
+
+            default:
+                UpdateComboName("");
+                currentScore.SetBasicScore(0, 0);
+                break;
+        }
+    }
+
+
+    private HandType EvaluateHand(IReadOnlyList<Card> cards)
+    {
+        if (cards == null || cards.Count == 0)
+            return HandType.None;
+
+        // сортируем по рангу
+        var ordered = cards.OrderBy(c => c.Rank).ToList();
+
+        // группы по рангу и масти
+        var rankGroups = ordered
+            .GroupBy(c => c.Rank)
+            .Select(g => g.Count())
+            .OrderByDescending(c => c)
+            .ToList();
+
+        bool isFlush = cards.GroupBy(c => c.Suit).Any(g => g.Count() >= 5);
+        bool isStraight = IsStraight(ordered);
+
+        // пяти-одинаковых можно оставить на будущее
+        if (rankGroups.FirstOrDefault() == 4)
+            return HandType.FourOfAKind;
+
+        if (rankGroups.FirstOrDefault() == 3 && rankGroups.Skip(1).Any(c => c >= 2))
+            return HandType.FullHouse;
+
+        if (isFlush && isStraight)
+            return HandType.StraightFlush;
+
+        if (isFlush)
+            return HandType.Flush;
+
+        if (isStraight)
+            return HandType.Straight;
+
+        if (rankGroups.FirstOrDefault() == 3)
+            return HandType.ThreeOfAKind;
+
+        if (rankGroups.Count(c => c == 2) >= 2)
+            return HandType.TwoPair;
+
+        if (rankGroups.FirstOrDefault() == 2)
+            return HandType.Pair;
+
+        return HandType.HighCard;
+    }
+
+    private bool IsStraight(List<Card> ordered)
+    {
+        if (ordered.Count < 5)
+            return false;
+
+        // убираем дубликаты по рангу
+        var distinctRanks = ordered
+            .Select(c => c.Rank)
+            .Distinct()
+            .OrderBy(r => r)
+            .ToList();
+
+        if (distinctRanks.Count < 5)
+            return false;
+
+        int run = 1;
+        for (int i = 1; i < distinctRanks.Count; i++)
+        {
+            // считаем подряд идущие ранги
+            if ((int)distinctRanks[i] == (int)distinctRanks[i - 1] + 1)
+            {
+                run++;
+                if (run >= 5)
+                    return true;
+            }
+            else
+            {
+                run = 1;
+            }
+        }
+
+        // упрощённо — без специальной обработки A‑2‑3‑4‑5, если нужно — допишем отдельно
+        return false;
     }
 
     private void UpdateComboName(string newName)
