@@ -131,7 +131,8 @@ public class HandHolder : MonoBehaviour
         print("Discard");
 
         discards--;
-        discardsText.text = discards.ToString();
+
+        AnimateDiscardsChange(-1);
 
         foreach (var selectedCard in _selectedCards)
         {
@@ -156,5 +157,52 @@ public class HandHolder : MonoBehaviour
             card.Initialize(nameC);
             _cards.Add(card);
         }
+    }
+
+    void AnimateDiscardsChange(int delta)
+    {
+        if (!discardsText)
+            return;
+
+        RectTransform rect = discardsText.rectTransform;
+
+        // текущий реальный текст (после изменения счётчика)
+        string finalText = discards.ToString();
+
+        // сначала показываем "-1"
+        discardsText.text = delta.ToString();
+
+        rect.DOKill();
+        Vector3 basePos = rect.anchoredPosition;
+        Vector3 baseScale = rect.localScale;
+        Quaternion baseRot = rect.localRotation;
+
+        float duration = 0.25f;
+
+        // жёсткий “металлический” shake
+        rect.DOShakeAnchorPos(duration,
+            strength: new Vector2(15f, 10f),
+            vibrato: 25,
+            randomness: 90f,
+            fadeOut: true);
+
+        rect.DOShakeRotation(duration,
+            strength: new Vector3(0f, 0f, 25f),
+            vibrato: 30,
+            randomness: 90f,
+            fadeOut: true);
+
+        rect.DOScale(baseScale * 1.25f, duration * 0.5f)
+            .SetLoops(2, LoopType.Yoyo)
+            .SetEase(Ease.OutQuad);
+
+        // по окончании шейка вернуть текст и трансформ
+        DOVirtual.DelayedCall(duration, () =>
+        {
+            discardsText.text = finalText;
+            rect.anchoredPosition = basePos;
+            rect.localScale = baseScale;
+            rect.localRotation = baseRot;
+        });
     }
 }
