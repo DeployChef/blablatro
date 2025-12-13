@@ -3,6 +3,7 @@ using DG.Tweening;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
@@ -13,8 +14,16 @@ public class HandHolder : MonoBehaviour
 
     [SerializeField] private int handSize = 8;
 
+    [SerializeField] private int hands = 4;
+    [SerializeField] private int discards = 3;
+
     [SerializeField] Button playButton;
     [SerializeField] Button discardButton;
+
+    [SerializeField] ComboProcessor comboProcessor;
+
+    [SerializeField] TextMeshProUGUI handsText;
+    [SerializeField] TextMeshProUGUI discardsText;
 
     bool _isCrossing;
 
@@ -26,6 +35,9 @@ public class HandHolder : MonoBehaviour
         discardButton.onClick.AddListener(OnDiscardButtonPressed);
 
         UpdateButtonsState();
+
+        handsText.text = hands.ToString();
+        discardsText.text = discards.ToString();
     }
 
     void OnDestroy()
@@ -104,17 +116,23 @@ public class HandHolder : MonoBehaviour
         }
 
         UpdateButtonsState();
+        comboProcessor.SelectedChanged(_selectedCards);
     }
 
     void UpdateButtonsState()
     {
         playButton.interactable = _selectedCards.Count > 0;
-        discardButton.interactable = _selectedCards.Count > 0;
+        discardButton.interactable = _selectedCards.Count > 0 && discards > 0;
     }
 
     public void OnDiscardButtonPressed()
     {
+
         print("Discard");
+
+        discards--;
+        discardsText.text = discards.ToString();
+
         foreach (var selectedCard in _selectedCards)
         {
             selectedCard.Discard();
@@ -123,6 +141,7 @@ public class HandHolder : MonoBehaviour
         _selectedCards.Clear();
 
         UpdateButtonsState();
+        comboProcessor.SelectedChanged(_selectedCards);
         DOVirtual.DelayedCall(0.5f, DrawCards);
     }
 
