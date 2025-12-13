@@ -309,8 +309,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4fa670d58c9312478ffb996753c5bfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandHolder
-  _cardPrefab: {fileID: 707242695709909284, guid: 20de449acb0eee744af4ff362b06d319, type: 3}
-  _countToGenerate: 6
+  cardPrefab: {fileID: 707242695709909284, guid: 20de449acb0eee744af4ff362b06d319, type: 3}
+  countToGenerate: 8
+  playButton: {fileID: 1257145333}
+  discardButton: {fileID: 1735728772}
 --- !u!1 &201624023
 GameObject:
   m_ObjectHideFlags: 0

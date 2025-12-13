@@ -1,24 +1,43 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using CardScripts;
 using UnityEngine;
-using static UnityEngine.Rendering.GPUSort;
+using UnityEngine.UI;
 
 public class HandHolder : MonoBehaviour
 {
-    [SerializeField] private GameObject _cardPrefab;
+    [SerializeField] private GameObject cardPrefab;
 
-    [SerializeField] private int _countToGenerate;
+    [SerializeField] private int countToGenerate;
 
-    bool _isCrossing = false;
+    [SerializeField] Button playButton;
+    [SerializeField] Button discardButton;
+
+    bool _isCrossing;
 
     private List<Card> _cards = new();
+    private List<Card> _selectedCards = new();
+
+    private void Awake()
+    {
+        discardButton.onClick.AddListener(OnDiscardButtonPressed);
+
+        UpdateButtonsState();
+    }
+
+    void OnDestroy()
+    {
+        if (discardButton)
+            discardButton.onClick.RemoveListener(OnDiscardButtonPressed);
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        for (int i = 0; i < _countToGenerate; i++)
+        for (int i = 0; i < countToGenerate; i++)
         {
-            var obj = Instantiate(_cardPrefab, transform);
+            var obj = Instantiate(cardPrefab, transform);
             var card = obj.GetComponent<Card>();
             var nameC = i.ToString();
             card.Initialize(nameC);
@@ -69,5 +88,42 @@ public class HandHolder : MonoBehaviour
         from.HolderPosition = position;
 
         _isCrossing = false;
+    }
+
+    public void ToggleCard(Card card)
+    {
+        print($"Toggle {card.name}");
+
+        if (card.IsSelected)
+        {
+            card.UnSelect();
+            _selectedCards.Remove(card);
+        }
+        else
+        {
+            if(_selectedCards.Count >= 5)
+                return;
+
+            card.Select();
+            _selectedCards.Add(card);
+        }
+
+        UpdateButtonsState();
+    }
+
+    void UpdateButtonsState()
+    {
+        playButton.interactable = _selectedCards.Count > 0;
+        discardButton.interactable = _selectedCards.Count > 0;
+    }
+
+    public void OnDiscardButtonPressed()
+    {
+        print("Discard");
+        foreach (var selectedCard in _selectedCards)
+        {
+            selectedCard.Discard();
+        }
+        _selectedCards.Clear();
     }
 }

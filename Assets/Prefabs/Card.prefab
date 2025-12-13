@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4172316073855084063}
   - component: {fileID: 7274833672052530344}
   - component: {fileID: 5271432482425487242}
+  - component: {fileID: 7712761578374635220}
   m_Layer: 5
   m_Name: Card
   m_TagString: Untagged
@@ -106,7 +107,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc5a4077bd4bd0249aa9255990cd8039, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Card
-  _nameText: {fileID: 8414468121803954100}
+  scaleAnimations: 1
+  scaleOnHover: 1.1
+  scaleOnSelect: 1.25
+  scaleTransition: 0.15
+  scaleEase: 27
+  selectPunchAmount: 120
+  hoverPunchAngle: 5
+  hoverTransition: 0.15
+  nameText: {fileID: 8414468121803954100}
 --- !u!114 &7274833672052530344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b84143236a9cbfe42a431a6f52b5432d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CardDragHandler
-  _card: {fileID: 4172316073855084063}
+  card: {fileID: 4172316073855084063}
 --- !u!114 &5271432482425487242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3043165ff0fc0640963e3dba19fa21e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CardHoverHandler
-  _card: {fileID: 4172316073855084063}
+  card: {fileID: 4172316073855084063}
   scaleAnimations: 1
   scaleOnHover: 1.15
   scaleOnSelect: 1.25
@@ -140,6 +149,19 @@ MonoBehaviour:
   scaleEase: 27
   hoverPunchAngle: 5
   hoverTransition: 0.15
+--- !u!114 &7712761578374635220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707242695709909284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2509931039f8ffb42acc746693d3059f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardScripts.CardClickHandler
+  card: {fileID: 4172316073855084063}
 --- !u!1 &852616670632787928
 GameObject:
   m_ObjectHideFlags: 0
