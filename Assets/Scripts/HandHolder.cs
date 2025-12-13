@@ -1,15 +1,17 @@
+using CardScripts;
+using DG.Tweening;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using CardScripts;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class HandHolder : MonoBehaviour
 {
     [SerializeField] private GameObject cardPrefab;
 
-    [SerializeField] private int countToGenerate;
+    [SerializeField] private int handSize = 8;
 
     [SerializeField] Button playButton;
     [SerializeField] Button discardButton;
@@ -35,14 +37,7 @@ public class HandHolder : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        for (int i = 0; i < countToGenerate; i++)
-        {
-            var obj = Instantiate(cardPrefab, transform);
-            var card = obj.GetComponent<Card>();
-            var nameC = i.ToString();
-            card.Initialize(nameC);
-            _cards.Add(card);
-        }
+        DrawCards();
     }
 
     // Update is called once per frame
@@ -123,7 +118,24 @@ public class HandHolder : MonoBehaviour
         foreach (var selectedCard in _selectedCards)
         {
             selectedCard.Discard();
+            _cards.Remove(selectedCard);
         }
         _selectedCards.Clear();
+
+        UpdateButtonsState();
+        DOVirtual.DelayedCall(0.5f, DrawCards);
+    }
+
+    private void DrawCards()
+    {
+        var count = handSize - _cards.Count;
+        for (int i = 0; i < count; i++)
+        {
+            var obj = Instantiate(cardPrefab, transform);
+            var card = obj.GetComponent<Card>();
+            var nameC = i.ToString();
+            card.Initialize(nameC);
+            _cards.Add(card);
+        }
     }
 }

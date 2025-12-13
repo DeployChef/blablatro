@@ -310,7 +310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandHolder
   cardPrefab: {fileID: 707242695709909284, guid: 20de449acb0eee744af4ff362b06d319, type: 3}
-  countToGenerate: 8
+  handSize: 8
   playButton: {fileID: 1257145333}
   discardButton: {fileID: 1735728772}
 --- !u!1 &201624023
