@@ -1,6 +1,7 @@
 using CardScripts;
 using DG.Tweening;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using TMPro;
@@ -21,6 +22,7 @@ public class HandHolder : MonoBehaviour
     [SerializeField] Button discardButton;
 
     [SerializeField] ComboProcessor comboProcessor;
+    [SerializeField] PlayProcessor playProcessor;
     [SerializeField] Deck deck;
 
     [SerializeField] TextMeshProUGUI handsText;
@@ -34,6 +36,7 @@ public class HandHolder : MonoBehaviour
     private void Awake()
     {
         discardButton.onClick.AddListener(OnDiscardButtonPressed);
+        playButton.onClick.AddListener(OnPlayButtonPressed);
 
         UpdateButtonsState();
 
@@ -45,6 +48,9 @@ public class HandHolder : MonoBehaviour
     {
         if (discardButton)
             discardButton.onClick.RemoveListener(OnDiscardButtonPressed);
+
+        if (playButton)
+            playButton.onClick.RemoveListener(OnPlayButtonPressed);
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -133,7 +139,7 @@ public class HandHolder : MonoBehaviour
 
         discards--;
 
-        AnimateDiscardsChange(-1);
+        AnimateIntChange(discardsText, discards, -1);
 
         foreach (var selectedCard in _selectedCards)
         {
@@ -144,6 +150,33 @@ public class HandHolder : MonoBehaviour
 
         UpdateButtonsState();
         comboProcessor.SelectedChanged(_selectedCards);
+        DOVirtual.DelayedCall(0.5f, DrawCards);
+    }
+
+    public void OnPlayButtonPressed()
+    {
+        StartCoroutine(PlayRoutine());
+    }
+    private IEnumerator PlayRoutine()
+    {
+        playButton.interactable = false;
+        discardButton.interactable = false;
+
+        yield return StartCoroutine(playProcessor.Play(_selectedCards));
+
+        hands--;
+        AnimateIntChange(handsText, hands, -1);
+
+        foreach (var selectedCard in _selectedCards)
+        {
+            selectedCard.Discard();
+            _cards.Remove(selectedCard);
+        }
+        _selectedCards.Clear();
+
+        UpdateButtonsState();
+        comboProcessor.SelectedChanged(_selectedCards);
+
         DOVirtual.DelayedCall(0.5f, DrawCards);
     }
 
@@ -160,27 +193,26 @@ public class HandHolder : MonoBehaviour
         }
     }
 
-    void AnimateDiscardsChange(int delta)
+    void AnimateIntChange(TextMeshProUGUI text, int finalValue, int delta)
     {
-        if (!discardsText)
+        if (!text)
             return;
 
-        RectTransform rect = discardsText.rectTransform;
+        RectTransform rect = text.rectTransform;
 
-        // текущий реальный текст (после изменения счётчика)
-        string finalText = discards.ToString();
+        string finalText = finalValue.ToString();
 
-        // сначала показываем "-1"
-        discardsText.text = delta.ToString();
+        // показываем, например, "-1" или "+5"
+        text.text = delta.ToString("+#;-#;0");
 
         rect.DOKill();
+
         Vector3 basePos = rect.anchoredPosition;
         Vector3 baseScale = rect.localScale;
         Quaternion baseRot = rect.localRotation;
 
         float duration = 0.25f;
 
-        // жёсткий “металлический” shake
         rect.DOShakeAnchorPos(duration,
             strength: new Vector2(15f, 10f),
             vibrato: 25,
@@ -197,10 +229,9 @@ public class HandHolder : MonoBehaviour
             .SetLoops(2, LoopType.Yoyo)
             .SetEase(Ease.OutQuad);
 
-        // по окончании шейка вернуть текст и трансформ
         DOVirtual.DelayedCall(duration, () =>
         {
-            discardsText.text = finalText;
+            text.text = finalText;
             rect.anchoredPosition = basePos;
             rect.localScale = baseScale;
             rect.localRotation = baseRot;

@@ -128,5 +128,17 @@ namespace CardScripts
                 Destroy(gameObject);
             });
         }
+
+        public void Punch()
+        {
+            transform.DOKill();
+
+            Vector3 baseScale = transform.localScale;
+            float duration = 0.2f;
+
+            transform.DOScale(baseScale * 1.2f, duration)
+                .SetLoops(2, LoopType.Yoyo)
+                .SetEase(Ease.OutQuad);
+        }
     }
 }

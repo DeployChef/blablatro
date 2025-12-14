@@ -3,12 +3,14 @@ using System;
 using TMPro;
 using UnityEngine;
 
-public class CurrentScore : MonoBehaviour
+public class ScoreCalculator : MonoBehaviour
 {
     private int chips;
     [SerializeField] private TextMeshProUGUI chipsText;
     private int mult;
     [SerializeField] private TextMeshProUGUI multText;
+    private int score;
+    [SerializeField] private TextMeshProUGUI scoreText;
 
     [Header("Shake settings")]
     [SerializeField] float shakeScale = 1.2f;
@@ -105,4 +107,10 @@ public class CurrentScore : MonoBehaviour
                 rect.localRotation = baseRot;
             });
     }
+
+    public void CalculateScore()
+    {
+        throw new NotImplementedException();
+    }
+
 }

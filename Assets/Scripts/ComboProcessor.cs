@@ -33,7 +33,7 @@ public class ComboProcessor : MonoBehaviour
 
     Coroutine _animateRoutine;
 
-    [SerializeField] private CurrentScore currentScore;
+    [SerializeField] private ScoreCalculator currentScore;
 
     public void SelectedChanged(List<Card> selectedCards)
     {
@@ -280,6 +280,174 @@ public class ComboProcessor : MonoBehaviour
 
             // задержка перед следующей буквой
             yield return new WaitForSeconds(delayBetweenChars);
+        }
+    }
+
+    List<Card> GetHighCard(List<Card> cards)
+    {
+        return cards
+            .OrderByDescending(c => c.Rank)
+            .Take(1)
+            .ToList();
+    }
+
+    List<Card> GetNOfAKind(List<Card> cards, int n)
+    {
+        var group = cards
+            .GroupBy(c => c.Rank)
+            .FirstOrDefault(g => g.Count() == n);
+
+        return group?.ToList() ?? new List<Card>();
+    }
+
+    List<Card> GetTwoPairs(List<Card> cards)
+    {
+        var pairs = cards
+            .GroupBy(c => c.Rank)
+            .Where(g => g.Count() == 2)
+            .OrderByDescending(g => g.Key)
+            .Take(2)
+            .SelectMany(g => g)
+            .ToList();
+
+        return pairs;
+    }
+
+    List<Card> GetFlushCards(List<Card> cards)
+    {
+        var flushGroup = cards
+            .GroupBy(c => c.Suit)
+            .FirstOrDefault(g => g.Count() >= 5);
+
+        if (flushGroup == null)
+            return new List<Card>();
+
+        return flushGroup
+            .OrderByDescending(c => c.Rank)
+            .Take(5)
+            .ToList();
+    }
+
+    List<Card> GetStraightCards(List<Card> cards)
+    {
+        var ordered = cards
+            .OrderBy(c => c.Rank)
+            .ToList();
+
+        var distinctRanks = ordered
+            .GroupBy(c => c.Rank)
+            .Select(g => g.First()) // по одной карте на ранг
+            .OrderBy(c => c.Rank)
+            .ToList();
+
+        if (distinctRanks.Count < 5)
+            return new List<Card>();
+
+        List<Card> bestStraight = new();
+
+        int run = 1;
+        List<Card> currentRun = new() { distinctRanks[0] };
+
+        for (int i = 1; i < distinctRanks.Count; i++)
+        {
+            if ((int)distinctRanks[i].Rank == (int)distinctRanks[i - 1].Rank + 1)
+            {
+                run++;
+                currentRun.Add(distinctRanks[i]);
+
+                if (run >= 5)
+                    bestStraight = new List<Card>(currentRun);
+            }
+            else
+            {
+                run = 1;
+                currentRun.Clear();
+                currentRun.Add(distinctRanks[i]);
+            }
+        }
+
+        if (bestStraight.Count >= 5)
+            return bestStraight.TakeLast(5).ToList();
+
+        return new List<Card>();
+    }
+
+    List<Card> GetFullHouseCards(List<Card> cards)
+    {
+        var groups = cards
+            .GroupBy(c => c.Rank)
+            .OrderByDescending(g => g.Count())
+            .ThenByDescending(g => g.Key)
+            .ToList();
+
+        var three = groups.FirstOrDefault(g => g.Count() >= 3);
+        if (three == null)
+            return new List<Card>();
+
+        var pair = groups
+            .Where(g => g.Key != three.Key && g.Count() >= 2)
+            .FirstOrDefault();
+
+        if (pair == null)
+            return new List<Card>();
+
+        var result = new List<Card>();
+        result.AddRange(three.Take(3));
+        result.AddRange(pair.Take(2));
+        return result;
+    }
+
+    List<Card> GetStraightFlushCards(List<Card> cards)
+    {
+        // ищем флеш по масти, потом стрит в этих картах
+        var flushGroup = cards
+            .GroupBy(c => c.Suit)
+            .FirstOrDefault(g => g.Count() >= 5);
+
+        if (flushGroup == null)
+            return new List<Card>();
+
+        return GetStraightCards(flushGroup.ToList());
+    }
+
+    public List<Card> GetComboCards(List<Card> selectedCards)
+    {
+        if (selectedCards == null || selectedCards.Count == 0)
+            return new List<Card>();
+
+        var handType = EvaluateHand(selectedCards);
+
+        switch (handType)
+        {
+            case HandType.HighCard:
+                return GetHighCard(selectedCards);
+
+            case HandType.Pair:
+                return GetNOfAKind(selectedCards, 2);
+
+            case HandType.TwoPair:
+                return GetTwoPairs(selectedCards);
+
+            case HandType.ThreeOfAKind:
+                return GetNOfAKind(selectedCards, 3);
+
+            case HandType.Straight:
+                return GetStraightCards(selectedCards);
+
+            case HandType.Flush:
+                return GetFlushCards(selectedCards);
+
+            case HandType.FullHouse:
+                return GetFullHouseCards(selectedCards);
+
+            case HandType.FourOfAKind:
+                return GetNOfAKind(selectedCards, 4);
+
+            case HandType.StraightFlush:
+                return GetStraightFlushCards(selectedCards);
+
+            default:
+                return new List<Card>();
         }
     }
 }
