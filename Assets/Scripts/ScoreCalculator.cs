@@ -1,5 +1,6 @@
 ﻿using DG.Tweening;
 using System;
+using System.Collections;
 using TMPro;
 using UnityEngine;
 
@@ -11,6 +12,7 @@ public class ScoreCalculator : MonoBehaviour
     [SerializeField] private TextMeshProUGUI multText;
     private int score;
     [SerializeField] private TextMeshProUGUI scoreText;
+    [SerializeField] private TextMeshProUGUI comboText;
 
     [Header("Shake settings")]
     [SerializeField] float shakeScale = 1.2f;
@@ -108,9 +110,74 @@ public class ScoreCalculator : MonoBehaviour
             });
     }
 
-    public void CalculateScore()
+    public IEnumerator CalculateScore()
     {
-        throw new NotImplementedException();
+        int result = chips * mult;
+        score += result;
+
+        if (!comboText || !scoreText)
+            yield break;
+
+        // 1. Показываем результат умножения в comboText
+        comboText.DOKill();
+        scoreText.DOKill();
+
+        RectTransform comboRect = comboText.rectTransform;
+        RectTransform scoreRect = scoreText.rectTransform;
+
+        string finalCombo = result.ToString();
+        string finalScore = score.ToString();
+
+        comboText.text = finalCombo;
+
+        // небольшое подпрыгивание цифры в combo
+        Vector3 comboBasePos = comboRect.anchoredPosition;
+        Vector3 comboBaseScale = comboRect.localScale;
+
+        Tween comboJump = comboRect
+            .DOAnchorPosY(comboBasePos.y + 30f, 0.2f)
+            .SetEase(Ease.OutQuad)
+            .OnComplete(() =>
+            {
+                comboRect.DOAnchorPosY(comboBasePos.y, 0.2f)
+                         .SetEase(Ease.InQuad);
+            });
+
+        comboRect.DOScale(comboBaseScale * 1.2f, 0.2f)
+                 .SetLoops(2, LoopType.Yoyo)
+                 .SetEase(Ease.OutQuad);
+
+        yield return comboJump.WaitForCompletion(); // ждём «подпрыгивания»
+
+        // 2. «Переливаем» число из combo в score:
+        // делаем клон текста, который летит в score
+        GameObject flyObj = new GameObject("ScoreFly");
+        flyObj.transform.SetParent(comboRect.parent, worldPositionStays: false);
+
+        var flyRect = flyObj.AddComponent<RectTransform>();
+        flyRect.anchorMin = flyRect.anchorMax = comboRect.anchorMin;
+        flyRect.pivot = comboRect.pivot;
+        flyRect.position = comboRect.position;
+
+        var flyTMP = flyObj.AddComponent<TextMeshProUGUI>();
+        flyTMP.font = comboText.font;
+        flyTMP.fontSize = comboText.fontSize;
+        flyTMP.alignment = comboText.alignment;
+        flyTMP.text = finalCombo;
+
+        Tween flyTween = flyRect
+            .DOMove(scoreRect.position, 0.4f)
+            .SetEase(Ease.InQuad);
+
+        flyTMP.DOFade(0f, 0.4f);
+
+        yield return flyTween.WaitForCompletion();
+
+        Destroy(flyObj);
+
+        // 3. Обновляем scoreText и анимируем его
+        scoreText.text = finalScore;
+        AnimateText(scoreRect);
     }
 
 }

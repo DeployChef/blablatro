@@ -12,11 +12,9 @@ public class PlayProcessor : MonoBehaviour
     [SerializeField] private Transform playPanel;
     [SerializeField] private ComboProcessor comboProcessor;
     [SerializeField] private ScoreCalculator scoreCalculator;
-    [SerializeField] private TextMeshProUGUI scoreText;
     private List<GameObject> slots = new List<GameObject>();
     private List<Card> _cards = new List<Card>();
     float duration = 0.3f;
-    private int _score = 0;
 
     public IEnumerator Play(List<Card> cards)
     {
@@ -40,7 +38,8 @@ public class PlayProcessor : MonoBehaviour
             scoreCalculator.AppendChips(card.Value);
             yield return new WaitForSeconds(.4f);
         }
-        yield return new WaitForSeconds(2);
+
+        yield return scoreCalculator.CalculateScore();
         print("End calc");
     }
 

@@ -762,7 +762,7 @@ MonoBehaviour:
   playButton: {fileID: 1257145333}
   discardButton: {fileID: 1735728772}
   comboProcessor: {fileID: 564534893}
-  playProcessor: {fileID: 0}
+  playProcessor: {fileID: 329689276}
   deck: {fileID: 1002741147}
   handsText: {fileID: 1705685015}
   discardsText: {fileID: 379789673}
@@ -1139,6 +1139,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayProcessor
   cardSlotPrefab: {fileID: 8379625966202145612, guid: b2df25057a2fc0d489329663b6c684d7, type: 3}
   playPanel: {fileID: 1428809487}
+  comboProcessor: {fileID: 564534893}
+  scoreCalculator: {fileID: 1331745271}
 --- !u!4 &329689277
 Transform:
   m_ObjectHideFlags: 0
@@ -3250,6 +3252,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CurrentScore
   chipsText: {fileID: 1453205590}
   multText: {fileID: 98848914}
+  scoreText: {fileID: 570783082}
+  comboText: {fileID: 1889748920}
   shakeScale: 1.2
   shakeDuration: 0.2
   shakeMoveY: 15
@@ -3320,7 +3324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
